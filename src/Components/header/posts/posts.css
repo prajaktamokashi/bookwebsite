@@ -1,0 +1,23 @@
+
+
+  .posts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 12px;
+  }
+  
+  .post-card {
+    background-color:#ececec;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(14, 13, 13, 0.1);
+    border: 3px solid #5c5470;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .post-card h3 {
+    margin-top: 0;
+  }
+  
+  

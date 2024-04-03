@@ -1,0 +1,37 @@
+
+  .user-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .user-card {
+    background-color:#ececec;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    border: 3px solid #5c5470;
+    font-size: 18px;
+  }
+  
+  .user-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-card p {
+    margin-bottom: 5px;
+  }
+  
+  .user-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+  
