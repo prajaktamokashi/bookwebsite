@@ -1,0 +1,21 @@
+.navStyle{
+    color:white;
+    background-color:#5c5470;
+    font-family:Sans-Serif;
+    height:100px;
+    margin-bottom:40px;
+    display:flex;
+    border:2px solid grey;
+    width:100%;
+  }
+  .new1{
+    margin-left:50px;
+    font-family:times new roman;
+    font-size:30px;
+    color:white;
+    text-decoration:none;
+  }
+  .links{
+    margin-top:25px;
+    margin-left:45%;
+  }

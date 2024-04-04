@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 
 const BookList = () => {
   const books = [
@@ -19,34 +20,13 @@ const BookList = () => {
     { id: 15, name: 'Book 15', price:'$12', imageUrl: 'https://th.bing.com/th/id/OIP.uFS1Y_a6DkWD5TM_eAstVAHaLu?w=178&h=282&c=7&r=0&o=5&pid=1.7'},
   ];
 
-  const imageStyle = {
-    width: '250px', 
-    height: '300px',
-    border:'20px solid black'
-  };
-
-  const imageContainerStyle = {
-    display: 'flex',
-    flexWrap: 'wrap',
-    backgroundColor: '#eef2e2',
-    paddingLeft:'4%'
-  };
-
-  const imageContainerItemStyle = {
-    flex: '20%', 
-    fontSize:'30px',
-    fontWeight:'500',
-    paddingTop:'3%',
-    margin:'0%',
-  };
-
   return (
     <>
      <h1>List of Books</h1>
-      <div style={imageContainerStyle}>
+      <div className="imageContainerStyle">
         {books.map(book => (
-          <div style={imageContainerItemStyle} key={book.id}>
-            <img style={imageStyle} src={book.imageUrl} alt={book.name} />
+          <div className="imageContainerItemStyle" key={book.id}>
+            <img className="imageStyle" src={book.imageUrl} alt={book.name} />
             <p>Name: {book.name}</p>
             <p>Price: {book.price}</p>
           </div>

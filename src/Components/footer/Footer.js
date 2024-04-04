@@ -1,34 +1,18 @@
 import React from "react";
+import './footer.css';
 
 const Footer = () => {
-  const style = {
-    color: "white",
-    backgroundColor: "#5c5470",
-    fontFamily: "Sans-Serif",
-    justifyContent: "space-between",
-    height: "560px",
-    paddingTop:"10px",
-    paddingBottom:"20px"
-  };
-  const new1 = {
-    marginLeft: "10px",
-    fontFamily: "times new roman",
-    fontSize: "30px",
-    textDecoration: "none",
-    color: "white",
-  };
   return (
-    <footer style={style}>
-      <div style={new1}>
-        <div className="main">
+    <footer className="footer">
+      <div className="footerbody">
+        <div className="footermain">
           <h3>About Us</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut
-            ornare leo. Mauris sed lorem in sapien faucibus dapibus.
+          Join us on this literary adventure as we celebrate the written word and the boundless imagination it inspires. Happy reading!
           </p>
         </div>
-        <div style={{ display: "flex", gap: "7%" }}>
-          <div className="list">
+        <div className="footerlists">
+          <div className="footerlist">
             <h3>Categories</h3>
             <ul>
               <li>Science Fiction</li>
@@ -38,7 +22,7 @@ const Footer = () => {
               <li>Thriller</li>
             </ul>
           </div>
-          <div className="list">
+          <div className="footerlist">
             <h3>Quick Links</h3>
             <ul>
               <li>Home</li>
@@ -47,7 +31,7 @@ const Footer = () => {
               <li>Contact</li>
             </ul>
           </div>
-          <div className="list">
+          <div className="footerlist">
             <h3>Follow Us</h3>
             <ul>
               <li>Facebook</li>
@@ -57,7 +41,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div style={new1}>
+        <div>
           <p>&copy; 2024 BookWebsite. All Rights Reserved.</p>
         </div>
       </div>
